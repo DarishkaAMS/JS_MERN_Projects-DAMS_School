@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { Container, AppBar Typography, Grow, Grid } from 'material-ui/core';
+import { Container, AppBar, Typography, Grow, Grid } from 'material-ui/core';
 
 import Student from './components/showStudent/showStudent.js';
 import CreateStudent from './components/CreateStudent/CreateStudent.js';

@@ -3,10 +3,12 @@ import { Container, AppBar Typography, Grow, Grid } from 'material-ui/core';
 
 import Student from './components/showStudent/showStudent.js';
 import CreateStudent from './components/CreateStudent/CreateStudent.js';
+import useStyles from './styles';
 
 import './App.css';
 
 function App() {
+  const classes = useStyles();
   return (
     <div className="App">
       <Container maxWidth="lg"> 

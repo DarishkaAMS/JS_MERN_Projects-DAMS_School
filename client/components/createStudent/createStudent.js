@@ -19,9 +19,10 @@ export default function BasicTextFields() {
     <>
     <h2> Add New Student </h2>
     <form className={classes.root} noValidate autoComplete="off">
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
-      <TextField id="outlined-basic" label="Outlined" variant="outlined" />
+      <TextField id="outlined-basic" label="Registration №" variant="outlined" />
+      <TextField id="outlined-basic" label="Name" variant="outlined" />
+      <TextField id="outlined-basic" label="Grade" variant="outlined" />
+      <TextField id="outlined-basic" label="Section" variant="outlined" />
       <Button variant="contained" color="primary">
         Add Student
       </Button>

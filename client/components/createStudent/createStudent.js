@@ -15,9 +15,12 @@ export default function BasicTextFields() {
   const classes = useStyles();
 
   return (
+    <>
+    <h2> Add New Student </h2>
     <form className={classes.root} noValidate autoComplete="off">
       <TextField id="outlined-basic" label="Outlined" variant="outlined" />
     </form>
+    </>
   );
 }
 

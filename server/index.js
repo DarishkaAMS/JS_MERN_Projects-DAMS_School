@@ -7,11 +7,11 @@ import studentRoutes from './routes/student.js';
 
 const app = express(); 
 
-app.use('/students', studentRoutes);
 app.use(bodyParser.json({limit: "20mb", extended: true}));
 app.use(bodyParser.urlencoded({limit: "20mb", extended: true}));
 
 app.use(cors());
+app.use('/students', studentRoutes);
 
 const CONNECTION_URL = 'mongodb+srv://DarishkaAMS:F1_Junemoon_2013@cluster0.dwg55.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
